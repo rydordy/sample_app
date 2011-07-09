@@ -13,4 +13,7 @@ module ApplicationHelper
     image_tag("logo.png", :alt => "Sample App", :class => "round")
   end
   
+  def signup
+    link_to "Sign up now!", signup_path, :class => "signup_button round"
+  end
 end
